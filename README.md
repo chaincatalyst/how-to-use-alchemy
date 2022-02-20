@@ -61,7 +61,7 @@ This will run all the tests on your local machine.
 
 The result should look like this
 
-https://github.com/Kuly14/AlphaSwap/blob/93ae2b19469e7cc88ae5401f7f3768fdae1badf6/Screenshot%20from%202022-02-20%2014-21-19.png
+![test screenshot]https://github.com/Kuly14/AlphaSwap/blob/93ae2b19469e7cc88ae5401f7f3768fdae1badf6/Screenshot%20from%202022-02-20%2014-21-19.png
 
 
 Thanks for reading. This was one of my first projects in this scale all the code combined it is almost 750 lines of code.
