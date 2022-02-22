@@ -49,6 +49,8 @@ contract AlphaSwapPair is AlphaSwapERC20, ReentrancyGuard {
         ) 
         external nonReentrant {
         require(_amount1 > 0 && _amount0 > 0, "You need to send some tokens");
+        require(_token0 == token0 || _token0 == token1, "You are trying to send wrong tokens");
+        require(_token1 == token0 || _token1 == token1, "You are trying to send wrong tokens");
         if (balance0 == 0 && balance1 == 0) {
 
             constLast = _amount0 * _amount1;
