@@ -70,10 +70,3 @@ The development was pretty smooth but in the future I would love to make Version
 
 
 I took a lot of inspiration from Uniswap V2 mainly the math but I wrote all the code myself.
-
-# Security
-
-I used slither for security purposes and didn't find any critical vulnerabilities. The only warnings were because I'm multiplying a number before dividing it. This is a concern with solidity because solidity doesn't support decimals so if number from division is equal to decimal number the result will be 0. Unfortunately I don't see other way to do the math but all divisions vere properly tested in unit tests.
-
-Other than that it should be secure, of course it's a huge code base so we can never be 100% sure.
-
